@@ -11,3 +11,4 @@
 * [AZ-104: Udemy: Duffy](https://www.udemy.com/course/70533-azure/)  
 * [Microsoft Official Practice Test](https://au.mindhub.com/az-104-microsoft-azure-administrator-microsoft-official-practice-test/p/MU-AZ-104)
 * [WhizLabs Practice Tests ($20USD)](https://www.whizlabs.com/microsoft-azure-certification-az-104/practice-tests/)
+* [AZ-104: freeCodeCamp.org](https://www.youtube.com/watch?v=10PbGbTUSAg) ... screenshots under `freecode` directory
