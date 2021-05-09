@@ -19,3 +19,9 @@
 ![Roles](./freecode/Roles/AzureADRoles.png)
 ![Roles](./freecode/Roles/AzureADRolesvsAzureRoles.png)
 ![Roles](./freecode/Roles/AzureRolesCheatsheet.png)
+
+### 1:28:40 Azure Policies
+![Policies](./freecode/Policies/Introduction.png)
+![Policies](./freecode/Policies/PolicyEffect.png)
+![Policies](./freecode/Policies/AzurePoliciesCheatsheet.png)
+
