@@ -8,3 +8,4 @@
 ![ARMTemplate](./freecode/ARMTemplates/TemplateFunctions.png)
 ![ARMTemplate](./freecode/ARMTemplates/TemplateVariables.png)
 ![ARMTemplate](./freecode/ARMTemplates/TemplateOutputs.png)
+![ARMTemplate](./freecode/ARMTemplates/ARMTemplatesCheatsheet.png)
