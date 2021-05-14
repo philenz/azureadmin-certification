@@ -10,3 +10,4 @@ Start | Subject
 2:08:58 | [ARM Templates](./ARMTemplates.md)
 2:32:16 | [Storage Accounts](./StorageAccounts.md)
 4:02:33 | [Virtual Machines](./VirtualMachines.md)
+5:31:35 | [Disks](./Disks.md)
