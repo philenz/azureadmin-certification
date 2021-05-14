@@ -12,3 +12,4 @@ Start | Subject
 4:02:33 | [Virtual Machines](./VirtualMachines.md)
 5:31:35 | [Disks](./Disks.md)
 6:06:20 | [Application Gateway](./ApplicationGateway.md)
+6:13:20 | [Scale Sets](./ScaleSets.md)
