@@ -20,4 +20,10 @@ Definitions of Queue and Tables needs swapping!
 ![StorageAccounts](./freecode/StorageAccounts/ImportExport.png)
 ![StorageAccounts](./freecode/StorageAccounts/SharedAccessSignatures.png)
 ![StorageAccounts](./freecode/StorageAccounts/SASURI.png)
+![StorageAccounts](./freecode/StorageAccounts/StorageAccountsCheatsheet1.png)
+![StorageAccounts](./freecode/StorageAccounts/StorageAccountsCheatsheet2.png)
+![StorageAccounts](./freecode/StorageAccounts/StorageAccountsCheatsheet3.png)
+![StorageAccounts](./freecode/StorageAccounts/StorageAccountsCheatsheet4.png)
+![StorageAccounts](./freecode/StorageAccounts/StorageAccountsCheatsheet5.png)
+![StorageAccounts](./freecode/StorageAccounts/StorageAccountsCheatsheet6.png)
 
