@@ -14,3 +14,4 @@ Start | Subject
 6:06:20 | [Application Gateway](./ApplicationGateway.md)
 6:13:20 | [Scale Sets](./ScaleSets.md)
 6:23:16 | [Azure App Service](./AppService.md)
+7:37:33 | [Azure Monitor](./AzureMonitor.md)
