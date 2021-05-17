@@ -16,3 +16,4 @@ Start | Subject
 6:23:16 | [Azure App Service](./freecode/AppService.md)
 7:37:33 | [Azure Monitor](./freecode/AzureMonitor.md)
 8:15:39 | [Backup Service](./freecode/BackupService.md)
+8:31:18 | [Azure Container Instances](./freecode/AzureContainerInstances.md)
