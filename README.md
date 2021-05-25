@@ -1,4 +1,8 @@
 ## [Microsoft AZ-104 Exam](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104)
+### Booking Details
+- 2/6/2021 10am, login 9.30am
+- https://home.pearsonvue.com/onvue-tips
+- https://home.pearsonvue.com/Test-takers/Resources.aspx#what-to-expect
 ### Skills Measured
 - Manage Azure identities and governance (15–20%)
 - Implement and manage storage (15–20%)
