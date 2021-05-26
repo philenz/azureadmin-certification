@@ -9,6 +9,18 @@
 - Deploy and manage Azure compute resources (20–25%)
 - Configure and manage virtual networking (25–30%)
 - Monitor and back up Azure resources (10–15%)
+
+### 25 May Updates
+- Manage Azure identities and governance (15–20%)
+  - Manage Azure Active Directory (Azure AD) objects
+    - _NEW_: create administrative groups
+    - https://docs.microsoft.com/en-us/azure/active-directory/roles/admin-units-add-manage-groups
+- _CHANGED_:
+  - from `configure storage tiers for Azure Blob Storage`
+  - to  `configure storage tiers`
+- _CHANGED_:
+  - from `configure and use Network Performance Monitor`
+  - to  `configure and use Azure Monitor for Networks`
 ### Study Plan
 * [AZ-104: freeCodeCamp.org](./Freecode.md)
 * [WhizLabs Practice Tests](./Whizlabs.md)
