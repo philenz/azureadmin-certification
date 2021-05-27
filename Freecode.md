@@ -143,6 +143,7 @@
 * Can deploy from lots of sources including `Kudu`
 * Can also run `WebJobs`
 ### 7:37:33 [Azure Monitor](./freecode/AzureMonitor.md)
+* CloudWatch
 * Azure Monitor Logs
 * Azure Monitor Metrics
 * Log Analytics lets you run KQL queries against Azure Monitor Logs
@@ -155,7 +156,14 @@
 * Azure Recovery Services (MARS) vault stores backups of vms and databases
 * Stick a MARS agent on on-premise
 ### 8:31:18 [Azure Container Instances](./freecode/AzureContainerInstances.md)
-
+* Multi-container groups only supported in linux
+* Container restart policies... always, never, onfailure
+* Can mount azure files
+* `ACR Tasks` allows automation of OS and framework patching
 ### 9:13:32 [Azure DNS](./freecode/AzureDNS.md)
-
 ### 9:30:05 [VNet](./freecode/VNet.md)
+* VPN Gateway topologies...
+  1. `Site-to-Site`: when you connect azure to an on-premise data center
+  1. `Multi-Site`: when you connect azure to multiple on-premice data centers
+  1. `Point-to-Site`: connect azure to multiple individual computers
+  1. `VNet-to-VNet`
