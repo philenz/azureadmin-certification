@@ -59,29 +59,89 @@
       1. user access administrator (only grant perms)
   1. scope
 ### 1:28:40 [Azure Policies](./freecode/AzurePolicies.md)
-
+* Define using a Policy definition JSON file
+* Assign to a user, resource group, or management group
+* Policy initiative = group of policies
 ### 1:41:56 [Azure Resource Manager](./freecode/AzureResourceManager.md)
-
+* Resource lock levels = `CanNotDelete` and `ReadOnly`
+* Must register `Resource Providers` to use Azure resources
+* `Azure Blueprints` = kind of an enterprise-level `ARM Templates`
+  - Governed subscriptions
+  - Improved tracking and auditing of deployments
+  - Backed by Azure Cosmos DB, objects replicated to multiple regions
 ### 2:08:58 [ARM Templates](./freecode/ARMTemplates.md)
-
+* Declarative
+* Template functions
+* User-defined functions
 ### 2:32:16 [Storage Accounts](./freecode/StorageAccounts.md)
-
+* SMB 445
+* Standard storage access tiers...
+  1. __Cool__
+  1. __Hot__ stored for >=30 days
+  1. __Archive__ stored for >=180 days
+* When moving from a cooler tier, cost is write operation to destination tier
+* When moving from a hotter tier, cost is read operation from source tier
+* Levels of redundancy [3 copies, synchronously updated]
+  1. $ Primary region redundancy
+      - LRS: 11 9s durability
+      - ZRS: 12 9s
+  1. $$ Secondary region redundancy (GRS, GZRS)
+  1. $$$ Secondary region redundancy with read access
+      - RA-GRS: 16 9s
+      - RA-GZRS: 16 9s
+* Blob types = 
+  1. block
+  1. append
+  1. page
+* Azure Files backup (shared snapshots)
+  - readonly
+  - up to 200 snapshots
+  - retain for up to 10 years
+  - stored in your file share... doh!
+* ATP = advanced threat protection if something dodgy happening!
+* Azure Files identity...
+    1. Join storage to an `on-premise` AD domain service
+    2. Join storage to a `Microsoft managed` AD domain service
+    3. Mount using storage account name and key
+* Shared Access Signatures
+    1. account-level
+    1. service-level
+    1. user delegated (e.g.: storage account)
+    1. ad-hoc any of the above plus uri parameters for start/end time, and permissions
+* Import/Export use `WAImportExport`
+    - import to blob or files
+    - export from blob
 ### 4:02:33 [Virtual Machines](./freecode/VirtualMachines.md)
-
+* ACU = Azure compute unit, Standard_A1 = 100
+* Can use Azure Automations to patch (Update Management)
 ### 5:31:35 [Disks](./freecode/Disks.md)
-
-### 6:06:20 [Application Gateway](./freecode/ApplicationGateway.md)
-
+* 3 9s availability
+* 3x copies
+* Encryption...
+  1. SSE
+  1. ADE (Azure Disk encryption) = encrpyt using BitLocker or DM-Crypt
+* Disk Bursting allows boosting of disk iops performance for a period of time
+  ### 6:06:20 [Application Gateway](./freecode/ApplicationGateway.md)
+* private ip = internal lb
+* frontend --> routing rules --> backend pools (or can set target type to a redirect)
+* listener types...
+  1. basic: forward all requests
+  1. multi-site: forward based on host header and host name
 ### 6:13:20 [Scale Sets](./freecode/ScaleSets.md)
-
+* Scale-In policy
+  1. Default (delete vm with highest instance id)
+  1. Newest VM
+  1. Oldest VM
+* 2 types of health monitoring...
+  1. application health extension
+  1. load balancer probe
 ### 6:23:16 [Azure App Service](./freecode/AppService.md)
 
 ### 7:37:33 [Azure Monitor](./freecode/AzureMonitor.md)
 
 ### 8:15:39 [Backup Service](./freecode/BackupService.md)
 
-### 8:31:18 [Azure Container Instances](./freecode/AzureContainerInstances.
-md)
+### 8:31:18 [Azure Container Instances](./freecode/AzureContainerInstances.md)
 
 ### 9:13:32 [Azure DNS](./freecode/AzureDNS.md)
 
