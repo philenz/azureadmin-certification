@@ -136,11 +136,24 @@
   1. application health extension
   1. load balancer probe
 ### 6:23:16 [Azure App Service](./freecode/AppService.md)
-
+* Elastic Beanstalk
+* Can do containers, too
+* And has idea of deployment slots
+* ASE = fully isolated and dedicared version for high scale
+* Can deploy from lots of sources including `Kudu`
+* Can also run `WebJobs`
 ### 7:37:33 [Azure Monitor](./freecode/AzureMonitor.md)
-
+* Azure Monitor Logs
+* Azure Monitor Metrics
+* Log Analytics lets you run KQL queries against Azure Monitor Logs
+* Metrics Explorer
+* Alerts
+* Azure Dashboards
+* Azure Workbooks are for data analysis
+* Application Insights is an APM
 ### 8:15:39 [Backup Service](./freecode/BackupService.md)
-
+* Azure Recovery Services (MARS) vault stores backups of vms and databases
+* Stick a MARS agent on on-premise
 ### 8:31:18 [Azure Container Instances](./freecode/AzureContainerInstances.md)
 
 ### 9:13:32 [Azure DNS](./freecode/AzureDNS.md)
