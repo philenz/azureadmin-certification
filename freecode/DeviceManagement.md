@@ -5,7 +5,6 @@
 ![DeviceManagement](./DeviceManagement/AzureADDeviceManagement.png)
 ![DeviceManagement](./DeviceManagement/AzureADRegisteredDevices.png)
 ![DeviceManagement](./DeviceManagement/AzureADMDMandMAM.png)
-![DeviceManagement](./DeviceManagement/AzureADEMS.png)
 ![DeviceManagement](./DeviceManagement/AzureADJoinedDevices.png)
 ![DeviceManagement](./DeviceManagement/AzureADFido2Keys.png)
 ![DeviceManagement](./DeviceManagement/AzureADHybridJoinedDevices.png)
