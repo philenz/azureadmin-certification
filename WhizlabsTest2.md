@@ -6,4 +6,5 @@
 ![WhizLabs](./whizlabs/Test2/q5.png)
 ![WhizLabs](./whizlabs/Test2/q6.png)
 ![WhizLabs](./whizlabs/Test2/q7.png)
+![WhizLabs](./whizlabs/Test2/q8.png)
 
