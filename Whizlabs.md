@@ -1,3 +1,7 @@
 ## [Whizlabs Practice Tests](https://www.whizlabs.com/learn/course/microsoft-azure-az-104/)
+* [Free Test](./WhizlabsTest0.md)
 * [Test 1](./WhizlabsTest1.md)
 * [Test 2](./WhizlabsTest2.md)
+* [Test 3](./WhizlabsTest3.md)
+* [Test 4](./WhizlabsTest4.md)
+* [Additional Questions](./WhizlabsTest5.md)
